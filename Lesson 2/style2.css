@@ -1,4 +1,7 @@
- .parent {
+
+
+
+.parent {
      
      width: 100%;
      height: 500px;
@@ -12,9 +15,8 @@
 
  .child {
       background-color: antiquewhite;
-      width: 150px;
-      height: 150px;
-     transition: 1s;
+      width: 200px;
+      height: 200px;
      margin:5px;
      display:flex ;
      justify-content: space-around;
@@ -23,5 +25,24 @@
 
  }
 
+ .rubikPixels{
+     font-family: 'Rubik Pixels', system-ui;
+ }
 
+ .Sedgwick{
+     font-family: 'Sedgwick Ave Display', cursive;
+ }
 
+ .dancingScript{
+     font-family: 'Dancing Script', cursive;
+ }
+ .fjallaOne{
+     font-family: 'Dancing Script', cursive;
+     font-family: 'Fjalla One', sans-serif;
+
+ }
+ .indieFlower{
+     font-family: 'Dancing Script', cursive;
+     font-family: 'Fjalla One', sans-serif;
+     font-family: 'Indie Flower', cursive;
+ }
