@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .flex{
+            margin: auto;
+            margin-top: 150px;
+            width: 900px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+        }
+        .block{
+            width: 360px;
+            height: 200px;
+            display: flex;
+            margin: 20px;
+            border-radius: 15px;
+            justify-content: space-between;
+            flex-direction: column;
+            padding-left: 25px;
+        }
+        .blue{
+            background-color: #699BF7;
+
+        }
+        .purple{
+            background-color:  #C7B9FF;
+        }
+        .yellow{
+            background-color: #FFC700;
+        }
+        .red{
+            background-color: #FF8577;
+        }
+
+        .innerWrap{
+            background-color: black;
+            width: 140px;
+            height: 50px;
+            justify-self: flex-end;
+            margin-bottom: 20px;
+            border-radius: 10px;
+
+        }
+        .text-inside{
+            color: white;
+            text-align: center;
+            text-decoration: underline white;
+            font-size: 16px;
+
+
+        }
+        h2{
+            margin-top: -40px;
+        }
+        p{
+            font-size:18px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="flex">
+    <div class="block blue">
+        <p>
+            Tutorial video
+        </p>
+        <h2>Dev mode tutorial</h2>
+        <div class="innerWrap">
+            <p class="text-inside">Watch the video</p>
+        </div>
+    </div>
+    <div class="block purple">
+        <p>
+            Blog post
+        </p>
+        <h2 style="margin-top: -10px">Making figma better for developers</h2>
+        <div class="innerWrap">
+            <p class="text-inside">Go to the blog</p>
+        </div>
+    </div>
+    <div class="block yellow">
+        <p>
+           Help center
+        </p>
+        <h2>Guide to Dev mode</h2>
+        <div class="innerWrap">
+            <p class="text-inside">Read the article</p>
+        </div>
+    </div>
+    <div class="block red">
+
+        <p>
+            Playground
+        </p>
+        <h2>Prototype with variables</h2>
+        <div class="innerWrap" style="width:180px">
+            <p class="text-inside">Go to the playground</p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
