@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+#first{
+    height: 100vh;
+    background: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#second{
+    height: 100vh;
+    background: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#third{
+    height: 100vh;
+    background: indianred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+a{
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+
+}
+p{
+    font-size: 50px;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+.lorem {
+    font-size: 20px;
+    margin-right: 50px;
+    margin-left: 50px
+}
