@@ -1,0 +1,52 @@
+body{margin: 0;}
+/***********************HEADER*************************************/
+header{
+    height:20vh;
+    background: #927D7D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 45px;
+
+}
+
+
+
+/**********************************MAIN**************************************/
+main{
+    height:60vh;
+    display: flex;
+
+}
+.child{
+    width:20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ .one{
+     background: #817C7C;
+ }
+
+.two{
+    width: 60%;
+    background: #A74848;
+
+}
+.three{
+background: #B7AEAE;
+}
+/**********************FOOTER*******************************/
+footer{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #BDBDBD;
+}
