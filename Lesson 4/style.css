@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+body{
+    margin:0;
+}
+.first{
+    height: 100vh;
+    background-image: url("figma1.jpg");
+
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstChild{
+    width: 1060px;
+    height: 390px;
+    background-color: white;
+    display: flex;
+}
+.firstChild img{
+    width: 50%;
+    height: 100%;
+}
+.firstChild1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.firstChild1 button{
+    width: 410px;
+    height:75px;
+    margin: 20px 0;
+    font-family: 'KoHo', sans-serif;
+
+}
+
+.second{
+    height: 100vh;
+    background-image:url("Rectangle 4.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+iframe{
+    width: 65%;
+    height: 55%;
+}
