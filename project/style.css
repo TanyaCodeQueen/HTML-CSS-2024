@@ -1,0 +1,490 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+body {
+    margin: 0;
+}
+/**************************************************FONTS***************************************************************/
+.lato {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+/**************************************************FONTS***************************************************************/
+
+#first{
+    height: 90vh;
+    background-color:  #19191B;
+    padding-top: 20px;
+    background-image: url("Rectangle 9546.png");
+    background-size: cover;
+
+
+}
+
+.nav{
+    height:8%;
+    /*background-color: #3b5998;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+
+
+
+
+
+}
+.logo{
+    display:flex;
+    width: 10%;
+    height: 100%;
+    /*background-color: red;*/
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.logo>span{
+color: white;
+    font-size: 28px;
+
+
+
+}
+.logo>img{
+    width: 40px;
+    height: 40px;
+
+}
+
+
+
+.panel{
+    width:30%;
+    height: 100%;
+    /*background-color: #524B4B;*/
+    display: flex;
+    justify-content:space-evenly ;
+}
+
+.panel>p:nth-child(1n+2){
+
+color: rgba(255, 255, 255, 0.70);
+
+
+    text-align: right;
+
+    font-size: 18px;
+    font-style: normal;
+
+
+
+}
+.panel>p:first-child{
+    /*color: #5454D4;*/
+    text-align: right;
+
+    font-size: 18px;
+    font-style: normal;
+    color: #5454D4;
+
+}
+
+.contactUs{
+
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    backdrop-filter: blur(1px);
+    display:flex;
+    width: 10%;
+    height: 80%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.contactUs>p{
+    color: #FFF;
+
+
+
+    font-size: 16px;
+
+
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+.main{
+
+    height:90%;
+    /*background-color: darkred;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 0;
+
+}
+
+.mainText{
+    width:40%;
+    height:90%;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+.Title{
+    color: #FFF;
+    font-size: 80px;
+margin: 0;
+}
+.Content{
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 21px;
+    line-height: 39px; /* 185.714% */
+    letter-spacing: -0.657px;
+margin: 0;
+}
+.button{
+width: 30%;
+    height: 10%;
+    border-radius: 4px;
+    background: #5454D4;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}
+.button>p{
+    color: #FFF;
+
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.picture{
+    width: 55%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture>img{
+    width:75%;
+   position: relative;
+    left: 30px;
+top:-20px;
+}
+/**************************************************SECOND SCROLL*******************************************************/
+
+#second{
+    height: 100vh;
+    background-color:  #19191B;;
+
+}
+
+.secondContainer{
+
+    height:100%;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.secondText{
+    width: 100%;
+    height: 20%;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom:30px ;
+
+
+}
+.secondContext{
+    height: 80%;
+    width:50% ;
+    color: #FFF;
+
+    font-size: 60px;
+
+    font-weight: 400;
+    line-height: 70px; /* 116.667% */
+    margin: 0;
+}
+
+.secondText>.secondContext:last-child{
+    color: rgba(255, 255, 255, 0.70);
+
+    font-size: 21px;
+    font-style: normal;
+
+    line-height: 39px; /* 185.714% */
+    letter-spacing: -0.657px;
+}
+
+.video{
+    height: 65%;
+    width: 100%;
+    display: flex;
+justify-content: center;
+    align-items: center;
+    background-image: url("image 4.jpg");
+    background-size: cover;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 30px;
+}
+/****************************************************THIRD*************************************************************/
+#third{
+    height: 110vh;
+    background-color:  #19191B;
+}
+
+.thirdContainer{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+
+    background-image: url("Rectangle 9546.png");
+    background-size: cover;
+
+
+}
+
+
+.thirdText{
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px; /* 116.667% */
+width: 50%;
+    position: relative;
+    bottom: 20px;
+}
+
+.icons{
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+   align-items: flex-start;
+
+}
+
+
+.icon{
+
+    width:30%;
+    height: 45%;
+
+
+flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.iconImg{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon>.blue{
+    background-color: rgba(84, 84, 212, 0.1);
+}
+
+.icon>.red{
+    background-color:rgba(240, 64, 55, 0.1);
+}
+
+.icon>.yellow{
+    background-color:rgba(254, 220, 90, 0.1);
+}
+
+.icon>.title{
+    color: #FFF;
+    text-align: center;
+
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.75px;
+    position:relative ;
+    bottom: 20px;
+}
+.icon>.iconText{
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.5px;
+    position:relative ;
+    bottom: 40px;
+}
+
+/***************************************************FOURTH*************************************************************/
+#fourth{
+    height: 80vh;
+    background-color:  #19191B;
+
+}
+.fourthContainer{
+    height: 90%;
+    display: flex;
+    justify-content:space-evenly ;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+.fourthTitle{
+    color: #FFF;
+
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0;
+}
+
+.fourthImages{
+    display: flex;
+    justify-content: space-between;
+}
+.imgContainer{
+    border-radius: 14px;
+    background: #1E1E20;
+    width:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img4 {
+    border-radius: 12px;
+    width: 100%;
+    margin: 24px;
+}
+.footer{
+    height: 75vh;
+    background-color:  #19191B;
+
+
+}
+
+.containerFooter{
+    width:100%;
+    height:70%;
+
+    background: rgba(30, 30, 32, 0.50);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footerText{
+
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0;
+    width:60%;
+    color: #FFF;
+    position: relative;
+    left:100px;
+}
+
+.footerButton{
+    height: 15%;
+    width: 13%;
+
+    border-radius: 5px;
+    background: #5454D4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right:100px;
+}
+.footerButton>span{
+    color: #FFF;
+    text-align: center;
+
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.lastFooter{
+    width:100%;
+    height:8%;
+
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.contactInformation{
+    height:100%;
+    width: 20%;
+    padding-right: 100px;
+
+
+}
+.contactText{
+    color: rgba(255, 255, 255, 0.70);
+    text-align: right;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px; /* 237.5% */
+    letter-spacing: -0.5px;
+
+}
